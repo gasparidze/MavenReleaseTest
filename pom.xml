@@ -3,7 +3,7 @@
 
   <groupId>org.example</groupId>
   <artifactId>JavaEx3</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>JavaEx3</name>
@@ -13,6 +13,7 @@
     <connection>scm:git:https://github.com/gasparidze/MavenReleaseTest.git</connection>
     <developerConnection>scm:git:https://github.com/gasparidze/MavenReleaseTest.git</developerConnection>
     <url>https://dmdev.com</url>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
@@ -25,7 +26,7 @@
     <dependency>
       <groupId>org.example</groupId>
       <artifactId>JavaEx2</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
